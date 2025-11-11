@@ -2,7 +2,8 @@
 
 :root{
     --main-color: #1B4332;
-    --gold: #C6A664;
+    --gold-light: #ffb347;
+    --gold-dark: #d4a017;
     --cream: #F8F7F4;
     --charcoal: #2E2E2E;
 }
@@ -116,7 +117,7 @@ section{
     padding: 1rem 4rem;
     border: 1px solid transparent;
     color: white;
-    background: linear-gradient(135deg, #d4a017, #ffb347);
+    background: linear-gradient(135deg, var(--gold-dark), var(--gold-light));
     border-radius: 3px;
     transition: border-color 0.3s;
     font-weight: 500;
@@ -129,4 +130,69 @@ section{
 .hero-text button:active{
     background: #c99002;
     color: white;
+}
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 2.8fr;
+    height: 100%;
+}
+
+.person-image{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.person-image img{
+    width: 100%;
+}
+
+.person-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-text h2{
+    display: inline-block;
+    font-size: 3.4rem;   
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.about{
+    padding: 0 20px;
+    background: linear-gradient(135deg, #fdfbfb, #ebedee);
+}
+
+.person-text h2::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    background-color: var(--gold-dark);
+    height: 3px;
+    bottom: 0;
+    right: 25%;
+}
+
+.about-text{
+    margin-bottom: 2.2rem;
+}
+
+.about-p{
+    padding: 30px;
+}
+
+.about-p p{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: var(--charcoal);
+}
+
+.about-last p{
+    font-size: 1.8rem;
+    font-family: 'Playfair Display', serif;
+    color: var(--gold-dark);
 }
