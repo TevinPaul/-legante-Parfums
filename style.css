@@ -277,7 +277,7 @@ section{
 }
 
 .perfume.four{
-    background-color: #f3e5c3;
+    background: linear-gradient(90deg, #fcc94a86, #f3e5c386, #fcc94a86);
 }
 
 .perfume-header{
@@ -286,13 +286,14 @@ section{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--light-grey);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     min-height: 30px;
 }
 
 .perfume-header h3{
     padding: 0 80px;
     cursor: pointer;
+    font-size: 1.5rem;
 }
 
 .menu-icon{
@@ -314,16 +315,18 @@ section{
 }
 
 .perfume-items h2{
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 24px;
     margin-bottom: 1rem;
     color: var(--charcoal);
+    padding: 0 15px;
 }
 
 .perfume-items p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 12px;
     margin-bottom: 1rem;
+    padding: 0 25px;
 }
 
 .btn{
@@ -365,30 +368,32 @@ section{
 }
 
 .happy-customers p{
-    margin-left: 20%;
+    margin-left: 10%;
     text-align: left;
 }
 
 .perfum-img-cont{
     width: 80%;
     position: relative;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 10px;
 }
 
 .perfum-img-cont div:nth-of-type(1){
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: #ebedee;
-    padding: 8px;
+    font-size: 1.2rem;
+    background-color: #f3e8d6;
+    padding: 0 8px;
     border-radius: 50%;
     position: absolute;
-    top: -15%;
+    top: -20%;
     left: 50%;
     transform: translate(-50%);
+    border: 1px solid rgba(128, 128, 128, 0.411);
 }
 
 .dots{
@@ -427,4 +432,16 @@ section{
 .dots div:nth-of-type(1){
     display: flex;
     align-items: center;
+}
+
+.perfume span{
+    font-family: "Dancing Script", cursive;
+}
+
+.perfume p{
+    font-size: 1.2rem;
+}
+
+.perfume.one{
+    background: transparent;
 }
