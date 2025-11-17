@@ -225,3 +225,23 @@ section{
     background-color: lightskyblue;
     border-radius: 15px;
 }
+
+.collection-menu{
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid var(--light-grey);
+    text-align: center;
+    height: auto;
+}
+
+.collection-menu div:nth-of-type(1){
+    border-right: 1px solid var(--light-grey);
+    width: 100%;
+}
+
+.collection-menu div:nth-of-type(3){
+    border-left: 1px solid var(--light-grey);
+    width: 100%;
+}
