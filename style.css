@@ -209,6 +209,7 @@ section{
     display: grid;
     width: 100%;
     height: 150vh;
+    margin-top: 10px;
     gap: 5em;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
@@ -222,4 +223,5 @@ section{
 
 .collection{
     background-color: lightskyblue;
+    border-radius: 15px;
 }
