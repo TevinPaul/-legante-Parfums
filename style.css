@@ -241,7 +241,40 @@ section{
     width: 100%;
 }
 
+.collection-menu div:nth-of-type(2){
+    font-size: 1.8rem;
+}
+
 .collection-menu div:nth-of-type(3){
     border-left: 1px solid var(--light-grey);
     width: 100%;
+}
+
+.collection-text{
+    text-align: center;
+    width: 100%;
+    padding: 10px 10%;
+}
+
+.collection-text h2{
+    font-size: 3rem;
+    line-height: 35px;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+
+.collection-text p{
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    padding: 0 2px;
+    margin-bottom: 1rem;
+}
+
+.collection-text button{
+    font-size: 1rem;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    background-color: #000;
+    color: white;
+    border-radius: 20px;
 }
