@@ -203,12 +203,13 @@ section{
 
 #collections{
     padding: 10px 10%;
+    background-color: var(--cream);
+    height: auto;
 }
 
 .grid-container{
     display: grid;
     width: 100%;
-    height: 150vh;
     margin-top: 10px;
     gap: 5em;
     grid-auto-columns: 1fr;
@@ -285,6 +286,7 @@ section{
     display: flex;
     gap: 4px; 
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .collection-customers-cont{
