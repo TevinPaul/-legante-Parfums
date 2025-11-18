@@ -333,7 +333,6 @@ section{
     background-color: #ebedee;
     text-align: center;
     border-radius: 50%;
-    /* height: 80px; */
     display: flex;
     align-items: center;
     grid-row: 1/3;
